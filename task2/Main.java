@@ -23,7 +23,9 @@ public class Main {
 
         int gradeMarks = (100 * studentMarks) / totalMarks;
 
-        System.out.println("Grade secured is: ");
+        System.out.println("Total marks obtained: " + studentMarks + "/" + totalMarks);
+        System.out.println("Percentage: " + gradeMarks + "%");
+        System.out.print("Grade secured is: ");
 
         switch (gradeMarks / 10) {
             case 10:

@@ -5,6 +5,7 @@ public class Main {
 		Scanner scanner = new Scanner(System.in);
 
 		int randomNo = (int) (Math.random() * 100) + 1;
+		System.out.println("Welcome to the number game!");
 		System.out.println("A random number is generated!");
 		int userNo = -1;
 
